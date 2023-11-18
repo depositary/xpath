@@ -1,0 +1,15 @@
+{
+    "name": "depositary/xpath",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Depositary\\Xpath\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0",
+        "ext-dom": "*",
+        "ext-libxml": "*"
+    }
+}
